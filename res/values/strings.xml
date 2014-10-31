@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="ISBN">ISBN:</string>
+	
+	
+    <string name="bookname">书名</string>
+    <string name="searchbutton">搜索</string>
+    <string name="mycollectbutton">我的收藏</string>
+    <string name="myBorrowbutton">我的借阅</string>
+    
+    <string name="new_message">你有新的消息</string>
+    <string name="app_name">杭州图书馆</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="userNameTV">用户名:</string>
+    <string name="userNameET">请输入用户名</string>
+    <string name="pwdTV">密    码:</string>
+    <string name="pwdET">请输入密码</string>
+    <string name="loginBtn">登    录</string>
+    <string name="cancelBtn">取    消</string>
+    
+    <string name="wrongPwd">密码不正确！</string>
+    <string name="unknownStu">输入的学号不存在！</string>
+    <string name="loginFail">登陆故障，请重新登录！</string>
+    <string name="wrongStu">学号输入错误！</string>
+    <string name="loginSuccess">登陆成功！</string>
+    
+    <string name="login_label_username">学号:</string>
+    <string name="login_label_password">图书密码:</string>
+    <string name="login_label_signin">登 录</string>
+    <string name="recd">记住密码</string>
+    <string name="login_status_logging_in">登录中...</string>
+    <string name="login_status_null_username_or_password">帐号和密码不能为空。</string>
+    <string name="login_status_invalid_username_or_password">帐号或密码错误，请重新输入。</string>
+    <string name="login_status_network_or_connection_error">网络错误，请稍后再试。</string>
+    <string name="login_register_link">默认帐号和密码是想同的，第一次登陆要改密码才能登陆成功！<a href="http://fanfou.com/register">修改密码</a></string>
+    <string name="login_status_failure">登录失败。</string>
+    
+    <string name="current_user">当前用户：</string>
+    
+    <string name="oldPwd">原 密 码：</string>
+    <string name="newPwd">新 密 码：</string>
+    <string name="newPwd_Confirm">确认新密码：</string>
+    
+    <string name="pwdChange_OK">确    定</string>
+    <string name="pwdChange_Cancel">取    消</string>
+    
+    <string name="credits">学  分：</string>
+    <string name="scores">成  绩：</string>
+    <string name="default_course">课程1</string>
+    <string name="default_credits">2</string>
+    <string name="default_scores">90</string>
+    
+    <string name="stu_num">学  号：</string>
+    <string name="stu_name">姓  名：</string>
+    <string name="stu_gender">性  别：</string>
+    <string name="stu_usedNmae">曾用名：</string>
+    <string name="stu_birthday">出生日期：</string>
+    <string name="stu_ID">身 份 证：</string>
+    <string name="stu_ethnic">民  族：</string>
+    <string name="stu_place">来源地区：</string>
+    <string name="stu_address">家庭地址：</string>
+    <string name="stu_hometown">籍  贯：</string>
+    <string name="stu_phoneNum">联系电话：</string>
+    <string name="stu_ZipCode">邮政编码：</string>
+    <string name="stu_grade">年  级：</string>
+    <string name="stu_adademic">学  院：</string>
+    <string name="stu_major">专  业：</string>
+    <string name="stu_tutor">导  师：</string>
+    <string name="stu_leval">培养层次：</string>
+    <string name="stu_style">培养方式：</string>
+    <string name="stu_status">学籍状态：</string>
+    <string name="stu_bankName">开户银行：</string>
+    <string name="stu_bankNum">银行账号：</string>
+    <string name="stu_degreeMajor">学位专业：</string>
+    <string name="course_select_WV">课程选择：</string>
+            
+    
+    
+    
+    
+    
+</resources>

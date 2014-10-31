@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchText"
+        android:layout_marginTop="20dp"
+        
+        android:text="@string/searchbutton" />
+
+    <EditText
+        android:id="@+id/searchText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/bookName"
+        android:layout_marginTop="40dp"
+        android:inputType="text"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/bookName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/searchText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/searchText"
+        android:background="@android:color/transparent"
+        android:text="@string/bookname" 
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/mycollectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="22dp"
+        android:text="@string/mycollectbutton" />
+     
+     <Button
+        android:id="@+id/myBorrowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="22dp"
+        android:text="@string/myBorrowbutton" />
+
+</RelativeLayout>

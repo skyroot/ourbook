@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/REL"
+        android:layout_width="wrap_content"
+        android:layout_height="35dip"
+         >    
+	  <TextView
+	 android:layout_alignParentLeft="true"
+	 android:layout_width="wrap_content"
+	 android:textSize="14sp"
+	 android:layout_height="30dip"
+	 android:id="@+id/headtitle"
+	 android:layout_toLeftOf="@+id/gengxinview"
+	 android:text="测试报告如下所示"
+	/>
+	
+	  <Button
+	 android:layout_alignParentRight="true"
+	 android:layout_width="wrap_content"
+	 android:layout_height="30dip"
+	 android:id="@+id/gengxinview"
+	 android:text="更新"
+	 />
+	
+	</RelativeLayout>
+      
+      
+      <LinearLayout
+           android:layout_below= "@+id/REL"           
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:orientation= "horizontal" >
+
+          <ListView
+              android:id="@+id/videos"
+              android:layout_width="fill_parent"
+              android:layout_height="301dp" >
+          </ListView>
+
+      </LinearLayout>
+
+</RelativeLayout>
+
